@@ -101,6 +101,6 @@ Translate into 10+ regional dialects
 Enable mobile app version for barangay-level deployment
 👥 Team & Credits
 
-Created by: [Your Name]
-Affiliation: [Your org or university]
-Special thanks: [Mentors, partners, advisors]
+Created by: Cassandra M.
+Affiliation: UC Berkeley
+
