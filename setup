@@ -1,0 +1,30 @@
+
+#Create a new directory for your project
+mkdir island-bridges-peacetech
+cd island-bridges-peacetech
+
+# Initialize a new React project
+npx create-react-app . --template typescript
+# OR if you prefer JavaScript:
+# npx create-react-app .
+
+# Install required dependencies
+npm install lucide-react
+
+# 4. Initialize git repository
+git init
+git add .
+git commit -m "Initial commit - Island Bridges PeaceTech Platform"
+
+# 5. Create GitHub repository and push
+# Go to GitHub.com and create a new repository named "island-bridges-peacetech"
+# Then run these commands:
+git remote add origin https://github.com/YOUR_USERNAME/island-bridges-peacetech.git
+git branch -M main
+git push -u origin main
+
+# 6. Set up GitHub Pages (optional - for live demo)
+# In your GitHub repository settings, enable GitHub Pages from the 'gh-pages' branch
+npm install --save-dev gh-pages
+# Add to package.json scripts: "deploy": "gh-pages -d build"
+# Then run: npm run deploy
